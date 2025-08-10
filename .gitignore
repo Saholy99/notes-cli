@@ -1,0 +1,33 @@
+cat <<'EOF' > .gitignore
+# Binaries
+notes-cli
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Go build cache
+*.log
+*.prof
+*.pprof
+*.pb.gz
+*.cover
+*.cov
+
+# Dependency directories
+vendor/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Configs
+*.env
+EOF
